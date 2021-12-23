@@ -11,7 +11,7 @@ import java.io.*;
 	public class ControlModel {
 	
 	private double speed = 0.00;
-    private final double normSpeed = 0.10;
+    	private final double normSpeed = 0.10;
 	private double lX = 0.0;
 	private double lY = 0.0;
 	private double lZ = 0.0;
@@ -54,8 +54,8 @@ import java.io.*;
 			lZ = normSpeed + speed;
 			aZ = 0;
 
-        out.print(move(lX, lY, lZ, aZ));
-        out.flush();
+        		out.print(move(lX, lY, lZ, aZ));
+        		out.flush();
 		}
 		
 		public void goDown() {
